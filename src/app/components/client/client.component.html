@@ -1,0 +1,29 @@
+<div class="container">
+    <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+        <div>
+            <label>
+                Name:
+            </label>
+            <input type="text" name="name" formControlName="name">
+        </div>
+        <div>
+            <label>
+                Age:
+            </label>
+            <input type="text" name="name" formControlName="age">
+        </div>
+       <div>
+        <label>
+            Adress:
+        </label>
+        <input type="text" name="name" formControlName="address">
+       </div>
+       
+        <label>
+            Job:
+        </label>
+        <input type="text" name="name" formControlName="job">
+        <input type="submit" value="Send Form Data">
+    </form>
+    
+</div>

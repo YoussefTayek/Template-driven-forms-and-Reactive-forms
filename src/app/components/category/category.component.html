@@ -1,0 +1,13 @@
+<form #f="ngForm" (ngSubmit)="onSubmit()">
+    <label>
+        Id:
+    </label>
+    <input name="id" [(ngModel)]="cat.id" type="text">
+    
+    <label>
+        Name:
+    </label>
+    <input name="name" [(ngModel)]="cat.name" type="text">
+    
+    <input type="submit" value="Valider">
+</form>
